@@ -1,5 +1,16 @@
 
-
+function stampa(){
+    var x = myArr.toString();
+ var y = myArr.join('');
+    document.getElementById("sampletext").value = y ;
+  var dove = document.getElementById("resultList");
+  var resultPara = document.createElement ('p') ; 
+  resultPara.className = 'resultPara';
+  resultPara.appendChild(document.createTextNode(myArr));
+  dove.appendChild(resultPara);
+  console.log(myArr);
+ 
+};
 
 
 function myFunction() {       //   https://jsfiddle.net/exrx8e1y/    https://stackoverflow.com/a/48056986/14503082

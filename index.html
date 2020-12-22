@@ -32,7 +32,12 @@
 
   <div class="player mt-2 bg-light d-flex justify-content-between" id="player">
     <div>
-      <input type="text" id="sampletext" size="60" value="">
+      <div class="taskContainer">
+        <div id="taskList">
+    
+        </div> 
+    </div>
+
     </div>
     <div><button onclick="myFunction()"><img src="images/unmute (1).svg" style="margin-right: 20px;" alt="" ></button></div>
     
@@ -111,14 +116,14 @@
 
   </div>
 
-
+ 
 
   <div class="container">
     Language :<br />
     <input type="text" id="lang" value="it_IT">
     <br />
     Sample Text:<br />
-
+    <input type="text" id="sampletext" size="60" value="">
     <br />
     Rate 0-10 :<br />
     <input type="text" id="rate" value="0.7">
@@ -138,9 +143,230 @@
 
   <div id="demo"></div>
 
+  <div id="stampaarray">
 
+  </div> <div > <button type="button" onclick="stampa()">Clicca per stampa array in stringa</button> </div>
 
   <script>
+const newA = document.getElementById("a");
+const newB = document.getElementById("b");
+const newC = document.getElementById("c");
+const newD = document.getElementById("d");
+const newE = document.getElementById("e");
+const newF = document.getElementById("f");
+const newG = document.getElementById("g");
+const newH = document.getElementById("h");
+const newI = document.getElementById("i");
+const newL = document.getElementById("l");
+const newM = document.getElementById("m");
+const newN = document.getElementById("n");
+const newO = document.getElementById("o");
+const newP = document.getElementById("p");
+const newQ = document.getElementById("q");
+const newR = document.getElementById("r");
+const newS = document.getElementById("s");
+const newT = document.getElementById("t");
+const newU = document.getElementById("u");
+const newV = document.getElementById("v");
+const newZ = document.getElementById("z");
+
+
+newA.addEventListener("click", addA);
+newB.addEventListener("click", addB);
+newC.addEventListener("click", addC);
+newD.addEventListener("click", addD);
+newE.addEventListener("click", addE);
+newF.addEventListener("click", addF); 
+newG.addEventListener("click", addG);
+newH.addEventListener("click", addH);
+newI.addEventListener("click", addI);
+newL.addEventListener("click", addL);
+newM.addEventListener("click", addM);
+newN.addEventListener("click", addN);
+newO.addEventListener("click", addO);
+newP.addEventListener("click", addP);
+newQ.addEventListener("click", addQ);
+newR.addEventListener("click", addR);
+newS.addEventListener("click", addS);
+newT.addEventListener("click", addT);
+newU.addEventListener("click", addU);
+newV.addEventListener("click", addV);
+newZ.addEventListener("click", addZ);
+
+ myArr = [];
+
+
+
+function addA(){
+  var lettera = "A";
+  var newLength = myArr.push(lettera);
+    const para = document.createElement ('p');
+    para.className = 'task';
+    para.appendChild (document.createTextNode (lettera) );
+taskList.appendChild (para);
+};
+function addB(){
+  var lettera = "B";
+  var newLength = myArr.push(lettera);
+    const para = document.createElement ('p');
+    para.className = 'task';
+    para.appendChild (document.createTextNode (lettera) );
+taskList.appendChild (para);
+};
+
+function addC(){
+  var lettera = "C";
+  var newLength = myArr.push(lettera);
+    const para = document.createElement ('p');
+    para.className = 'task';
+    para.appendChild (document.createTextNode (lettera) );
+    taskList.appendChild (para);
+};
+function addD(){
+  var lettera = "D";
+  var newLength = myArr.push(lettera);
+    const para = document.createElement ('p');
+    para.className = 'task';
+    para.appendChild (document.createTextNode (lettera) );
+taskList.appendChild (para);
+};
+function addE(){
+  var lettera = "E";
+  var newLength = myArr.push(lettera);
+    const para = document.createElement ('p');
+    para.className = 'task';
+    para.appendChild (document.createTextNode (lettera) );
+taskList.appendChild (para);
+};
+function addF(){
+  var lettera = "F";
+  var newLength = myArr.push(lettera);
+    const para = document.createElement ('p');
+    para.className = 'task';
+    para.appendChild (document.createTextNode (lettera) );
+taskList.appendChild (para);
+};
+function addG(){
+  var lettera = "G";
+  var newLength = myArr.push(lettera);
+    const para = document.createElement ('p');
+    para.className = 'task';
+    para.appendChild (document.createTextNode (lettera) );
+taskList.appendChild (para);
+};
+function addH(){
+  var lettera = "H";
+  var newLength = myArr.push(lettera);
+    const para = document.createElement ('p');
+    para.className = 'task';
+    para.appendChild (document.createTextNode (lettera) );
+taskList.appendChild (para);
+};
+function addI(){
+  var lettera = "I";
+  var newLength = myArr.push(lettera);
+    const para = document.createElement ('p');
+    para.className = 'task';
+    para.appendChild (document.createTextNode (lettera) );
+taskList.appendChild (para);
+};
+function addL(){
+  var lettera = "L";
+  var newLength = myArr.push(lettera);
+    const para = document.createElement ('p');
+    para.className = 'task';
+    para.appendChild (document.createTextNode (lettera) );
+taskList.appendChild (para);
+};
+function addM(){
+  var lettera = "M";
+  var newLength = myArr.push(lettera);
+    const para = document.createElement ('p');
+    para.className = 'task';
+    para.appendChild (document.createTextNode (lettera) );
+taskList.appendChild (para);
+};
+function addN(){
+  var lettera = "N";
+  var newLength = myArr.push(lettera);
+    const para = document.createElement ('p');
+    para.className = 'task';
+    para.appendChild (document.createTextNode (lettera) );
+taskList.appendChild (para);
+};
+function addO(){
+  var lettera = "O";
+  var newLength = myArr.push(lettera);
+    const para = document.createElement ('p');
+    para.className = 'task';
+    para.appendChild (document.createTextNode (lettera) );
+taskList.appendChild (para);
+};
+function addP(){
+  var lettera = "P";
+  var newLength = myArr.push(lettera);
+    const para = document.createElement ('p');
+    para.className = 'task';
+    para.appendChild (document.createTextNode (lettera) );
+taskList.appendChild (para);
+};
+function addQ(){
+  var lettera = "Q";
+  var newLength = myArr.push(lettera);
+    const para = document.createElement ('p');
+    para.className = 'task';
+    para.appendChild (document.createTextNode (lettera) );
+taskList.appendChild (para);
+};
+function addR(){
+  var lettera = "R";
+  var newLength = myArr.push(lettera);
+    const para = document.createElement ('p');
+    para.className = 'task';
+    para.appendChild (document.createTextNode (lettera) );
+taskList.appendChild (para);
+};
+function addS(){
+  var lettera = "S";
+  var newLength = myArr.push(lettera);
+    const para = document.createElement ('p');
+    para.className = 'task';
+    para.appendChild (document.createTextNode (lettera) );
+taskList.appendChild (para);
+};
+function addT(){
+  var lettera = "T";
+  var newLength = myArr.push(lettera);
+    const para = document.createElement ('p');
+    para.className = 'task';
+    para.appendChild (document.createTextNode (lettera) );
+taskList.appendChild (para);
+};
+function addU(){
+  var lettera = "U";
+  var newLength = myArr.push(lettera);
+    const para = document.createElement ('p');
+    para.className = 'task';
+    para.appendChild (document.createTextNode (lettera) );
+taskList.appendChild (para);
+};
+function addV(){
+  var lettera = "V";
+  var newLength = myArr.push(lettera);
+    const para = document.createElement ('p');
+    para.className = 'task';
+    para.appendChild (document.createTextNode (lettera) );
+taskList.appendChild (para);
+};
+function addZ(){
+  var lettera = "Z";
+  var newLength = myArr.push(lettera);
+    const para = document.createElement ('p');
+    para.className = 'task';
+    para.appendChild (document.createTextNode (lettera) );
+taskList.appendChild (para);
+};
+
     document.getElementById("a").addEventListener("click", function () {
       document.getElementById("sampletext").value = "A";
     });
