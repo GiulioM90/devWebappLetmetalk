@@ -1,6 +1,8 @@
 
 
-function myFunction() {       //   https://jsfiddle.net/exrx8e1y/    
+
+
+function myFunction() {       //   https://jsfiddle.net/exrx8e1y/    https://stackoverflow.com/a/48056986/14503082
 
     dtlarea=document.getElementById("details");
     //dtlarea.style.display="none";

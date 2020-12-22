@@ -1,95 +1,231 @@
 <!doctype html>
 <html lang="en">
-  <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
-<title>Upgrade letmeTalk</title>
-  </head>
-  <body>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Upgrade letmeTalk</title>
+</head>
+
+<body>
+
+
+
+  <div class="header ">
+    <nav class="navbar  navbar-dark bg-primary p-3 ">
+      <a class="navbar-brand" href="#!">Parla con me!</a>
+      <div><img src="images/reply.svg" alt=""></div>
+      <div><img src="images/plus.svg" alt=""></div>
+      <div><img src="images/heart-fill.svg" alt=""></div>
+      <div><img src="images/unverified.svg" style="width: 25px;" alt=""></div>
+      <div><img src="images/three-bars.svg" alt=""></div>
+    </nav>
+
+
+  </div>
+
+  <div class="player mt-2 bg-light d-flex justify-content-between" id="player">
+    <div>
+      <input type="text" id="sampletext" size="60" value="">
+    </div>
+    <div><button onclick="myFunction()"><img src="images/unmute (1).svg" style="margin-right: 20px;" alt="" ></button></div>
     
 
+  </div>
+  <hr>
 
-    <div class="header ">
-        <nav class="navbar  navbar-dark bg-primary p-3 ">
-            <a class="navbar-brand" href="#!">Parla con me!</a>
-            <div><img src="images/reply.svg" alt=""></div>
-            <div><img src="images/plus.svg" alt=""></div>
-            <div><img src="images/heart-fill.svg" alt=""></div>
-            <div><img src="images/unverified.svg" style="width: 25px;" alt=""></div>
-            <div><img src="images/three-bars.svg" alt=""></div>
-          </nav>
 
+  <div class="cardContainer container-fluid bg-light d-flex flex-wrap justify-content-start p-3" id="cardContainer">
+    <div class="card d-flex justify-content-center align-items-center p-5" id="a" value="a">
+
+      <div class="card-body" id="letter"> A </div>
 
     </div>
+    <div class="card d-flex justify-content-center align-items-center p-5" id="b">
 
-    <div  class="player mt-2 bg-light d-flex justify-content-between" id="player">
-        <div></div>
-   <div><img src="images/unmute (1).svg" style="margin-right: 20px;" alt=""></div>
-
-
+      <div class="card-body"> B </div>
     </div>
-    <hr>
-
-
-    <div class="cardContainer container-fluid bg-light d-flex flex-wrap justify-content-start p-3" id="cardContainer">
-        <div class="card">
-            <img class="card-img-top" src="images/1608296747panda-clipart-svg.svg" alt="Card image cap">
-            <div class="card-body"> Some more card content </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="images/1608296747panda-clipart-svg.svg" alt="Card image cap">
-            <div class="card-body"> Some more card content </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="images/1608296747panda-clipart-svg.svg" alt="Card image cap">
-            <div class="card-body"> Some more card content </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="images/1608296747panda-clipart-svg.svg" alt="Card image cap">
-            <div class="card-body"> Some more card content </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="images/1608296747panda-clipart-svg.svg" alt="Card image cap">
-            <div class="card-body"> Some more card content </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="images/1608296747panda-clipart-svg.svg" alt="Card image cap">
-            <div class="card-body"> Some more card content </div>
-          </div>
+    <div class="card d-flex justify-content-center align-items-center p-5" id="c">
+      <div class="card-body"> C</div>
     </div>
-    
-   
+    <div class="card d-flex justify-content-center align-items-center p-5" id="d">
+      <div class="card-body"> D</div>
+    </div>
+    <div class="card d-flex justify-content-center align-items-center p-5" id="e">
+      <div class="card-body"> E </div>
+    </div>
+    <div class="card d-flex justify-content-center align-items-center p-5" id="f">
+      <div class="card-body"> F</div>
+    </div>
+    <div class="card d-flex justify-content-center align-items-center p-5" id="g">
+      <div class="card-body"> G</div>
+    </div>
+    <div class="card d-flex justify-content-center align-items-center p-5" id="h">
+      <div class="card-body"> H </div>
+    </div>
+    <div class="card d-flex justify-content-center align-items-center p-5" id="i">
+      <div class="card-body"> I </div>
+    </div>
+    <div class="card d-flex justify-content-center align-items-center p-5" id="l">
+      <div class="card-body"> L </div>
+    </div>
+    <div class="card d-flex justify-content-center align-items-center p-5" id="m">
+      <div class="card-body"> M</div>
+    </div>
+    <div class="card d-flex justify-content-center align-items-center p-5" id="n">
+      <div class="card-body"> N</div>
+    </div>
+    <div class="card d-flex justify-content-center align-items-center p-5" id="o">
+      <div class="card-body"> O </div>
+    </div>
+    <div class="card d-flex justify-content-center align-items-center p-5" id="p">
+      <div class="card-body"> P</div>
+    </div>
+    <div class="card d-flex justify-content-center align-items-center p-5" id="q">
+      <div class="card-body"> Q </div>
+    </div>
+    <div class="card d-flex justify-content-center align-items-center p-5" id="r">
+      <div class="card-body"> R </div>
+    </div>
+    <div class="card d-flex justify-content-center align-items-center p-5" id="s">
+      <div class="card-body"> S</div>
+    </div>
+    <div class="card d-flex justify-content-center align-items-center p-5" id="t">
+      <div class="card-body"> T</div>
+    </div>
+    <div class="card d-flex justify-content-center align-items-center p-5" id="u">
+      <div class="card-body"> U</div>
+    </div>
+    <div class="card d-flex justify-content-center align-items-center p-5" id="v">
+      <div class="card-body"> V</div>
+    </div>
+    <div class="card d-flex justify-content-center align-items-center p-5" id="z">
+      <div class="card-body"> Z</div>
+    </div>
 
-<div class="container">
-  Language :<br/>
-  <input type="text" id="lang" value="it_IT">
-  <br/>
-  Sample Text:<br/>
-  <input type="text" id="sampletext" size="60" value="Prova">
-  <br/>
-  Rate 0-10 :<br/>
-  <input type="text" id="rate" value="0.7">
-  <br/>
-  Pitch 0-2 :<br/>
-  <input type="text" id="pitch" value="1">
-  <br/>
-  Volume 0-1 :<br/>
-  <input type="text" id="volume" value="1">
-  <br/><br/>
-  <input type="Button" value="Click Me!" onclick="myFunction()">
-  <br/><br/>
-  <!--<div id="details" style="display:block;">Language List</div>-->
-  <textarea id="details" rows="12" cols="50" style="display:block;">Language List</textarea>
+  </div>
 
-</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
-  
-  </body>
+  <div class="container">
+    Language :<br />
+    <input type="text" id="lang" value="it_IT">
+    <br />
+    Sample Text:<br />
+
+    <br />
+    Rate 0-10 :<br />
+    <input type="text" id="rate" value="0.7">
+    <br />
+    Pitch 0-2 :<br />
+    <input type="text" id="pitch" value="1">
+    <br />
+    Volume 0-1 :<br />
+    <input type="text" id="volume" value="1">
+    <br /><br />
+    <input type="Button" value="Click Me!" onclick="myFunction()">
+    <br /><br />
+    <!--<div id="details" style="display:block;">Language List</div>-->
+    <textarea id="details" rows="12" cols="50" style="display:block;">Language List</textarea>
+
+  </div>
+
+  <div id="demo"></div>
+
+
+
+  <script>
+    document.getElementById("a").addEventListener("click", function () {
+      document.getElementById("sampletext").value = "A";
+    });
+
+    document.getElementById("b").addEventListener("click", function () {
+      document.getElementById("sampletext").value = "B";
+    });
+
+    document.getElementById("c").addEventListener("click", function () {
+      document.getElementById("sampletext").value = "C";
+    });
+
+    document.getElementById("d").addEventListener("click", function () {
+      document.getElementById("sampletext").value = "D";
+    });
+
+    document.getElementById("e").addEventListener("click", function () {
+      document.getElementById("sampletext").value = "E";
+    });
+
+    document.getElementById("f").addEventListener("click", function () {
+      document.getElementById("sampletext").value = "F";
+    });
+
+    document.getElementById("g").addEventListener("click", function () {
+      document.getElementById("sampletext").value = "G";
+    });
+
+    document.getElementById("h").addEventListener("click", function () {
+      document.getElementById("sampletext").value = "H";
+    });
+
+    document.getElementById("i").addEventListener("click", function () {
+      document.getElementById("sampletext").value = "I";
+    });
+    document.getElementById("l").addEventListener("click", function () {
+      document.getElementById("sampletext").value = "L";
+    });
+    document.getElementById("m").addEventListener("click", function () {
+      document.getElementById("sampletext").value = "M";
+    });
+    document.getElementById("n").addEventListener("click", function () {
+      document.getElementById("sampletext").value = "N";
+    });
+    document.getElementById("o").addEventListener("click", function () {
+      document.getElementById("sampletext").value = "O";
+    });
+    document.getElementById("p").addEventListener("click", function () {
+      document.getElementById("sampletext").value = "P";
+    });
+    document.getElementById("q").addEventListener("click", function () {
+      document.getElementById("sampletext").value = "Q";
+    });
+    document.getElementById("r").addEventListener("click", function () {
+      document.getElementById("sampletext").value = "R";
+    });
+    document.getElementById("s").addEventListener("click", function () {
+      document.getElementById("sampletext").value = "S";
+    });
+    document.getElementById("t").addEventListener("click", function () {
+      document.getElementById("sampletext").value = "T";
+    });
+    document.getElementById("u").addEventListener("click", function () {
+      document.getElementById("sampletext").value = "U";
+    });
+    document.getElementById("v").addEventListener("click", function () {
+      document.getElementById("sampletext").value = "V";
+    });
+    document.getElementById("z").addEventListener("click", function () {
+      document.getElementById("sampletext").value = "Z";
+    });
+  </script>
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+  </script>
+
+
+</body>
+
 </html>
