@@ -1,0 +1,15 @@
+#player {
+    border: solid 2px blue;
+    
+}
+
+#cardContainer {
+    border: solid 2px blue;
+}
+.card {
+    margin: 10px;
+}
+.card-img-top {
+    width: 10rem;
+    margin: 10px;
+}
