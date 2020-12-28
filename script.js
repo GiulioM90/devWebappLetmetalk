@@ -55,7 +55,7 @@ function myFunction() {       //   https://jsfiddle.net/exrx8e1y/    https://sta
           clearInterval(mytimer);
           
         }
-    }, 1000);
+    }, 0);
   
   } 
 
